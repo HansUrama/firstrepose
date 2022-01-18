@@ -1,0 +1,33 @@
+def division(number1,number2,):
+    return number1/number2
+
+def addition(number1,number2,):
+    return number1+number2
+
+def subtraction(number1,number2):
+    return number1-number2
+
+def exponent(number1,number2):
+    return number1**number2
+
+def multiplication(number1,number2):
+    return number1*number2
+
+
+def almighty():
+    print("Okay user, give me an operation")
+    operation = input()
+    print("Okay, give me a number")
+    number1 = input()
+    print("Okay, give me a second number")
+    number2 = input()
+    if(operation == "division"):
+        division(number1,number2)
+    if(operation == "addition"): 
+        addition(number1,number2)
+    if(operation == "subtraction"):
+        subtraction(number1,number2)
+    if(operation == "exponent"):
+        exponent(number1,number2)
+    if(operation == "multiplication"):
+        multiplication(number1,number2)
